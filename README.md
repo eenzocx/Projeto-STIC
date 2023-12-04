@@ -7,5 +7,5 @@ Caso o player erre o número, o jogo irá exibir uma tela de "game over", pedind
 [🗃 Arquivo `.zip` com a versão portável](dist/publish.zip)
 
 Para executar:
-* `dotnet teste-aulas-publicacao.dll`
+* `dotnet Projeto-STIC.dll`
 
