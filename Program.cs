@@ -81,17 +81,4 @@ class GeniusGame
        {
            currentLevel++;
        }
-   }
-   static void PlaySound(string soundFile)
-   {
-       try
-       {
-           SoundPlayer player = new SoundPlayer(soundFile);
-           player.Play();
-       }
-       catch (Exception ex)
-       {
-           Console.WriteLine($"Erro ao reproduzir som: {ex.Message}");
-       }
-   }
-}
+   
