@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Media;
 class GeniusGame
-{
+{ 
    static List<int> sequence = new List<int>();
    static Random random = new Random();
    static int currentLevel = 1;
@@ -82,3 +82,4 @@ class GeniusGame
            currentLevel++;
        }
    
+}
